@@ -7,7 +7,7 @@ if (length(args)==0) {
   args[2] = "out.txt"
 }
 
-# file "Mapability_100.txt"
+# file to take in by the script: "Mapability_100.txt"
 BALL <- read.delim(args[1], header = TRUE)
 
 #command line running: Rscript thiscript.R Mapability_100.txt
